@@ -1,0 +1,132 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#navbar{
+    background-image: linear-gradient(#d0a8e7,rgb(104, 9, 88));
+    position:fixed;
+    width:100%;
+    z-index:99;
+}
+
+#navbar:hover{
+    box-shadow: 1px 2px 3px gray;
+}
+
+#navbar ul li a{
+    margin-left:20px;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px dashed #000;
+    font-size:17px;
+    
+}
+
+#banner{
+    background-image: linear-gradient(#d0a8e7,rgb(104, 9, 88));
+    color:#fff;
+    overflow: hidden;
+}
+
+.divider{
+    max-width: 100%;
+    height:0px;
+}
+
+.header-title{
+    margin-top:40px;
+    padding-top:40px;
+}
+
+.header-para{
+    padding:40px;
+}
+
+.header-btn{
+    width:100px;
+    height:40px;
+    cursor: pointer;
+    color:#d0a8e7;
+    border-radius: 10%;
+    border:none;
+}
+
+.service-image{
+    width:250px;
+    height:250px;
+}
+
+#app-box{
+    background-image: linear-gradient(#d0a8e7,rgb(104, 9, 88));
+    color:#fff;
+    padding:10px;
+}
+
+.app-body{
+    margin-top: 20px;
+}
+.app-body p{
+    padding:30px;
+}
+.app-btn{
+    width:150px;
+    height:50px;
+    border-radius: 20px;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.app-btn:hover{
+    background-color: #000;
+    color:rgb(104, 9, 88);
+}
+.card{
+    padding:0;
+    background-color: #d0a8e7;
+    color:#fff;
+    margin:40px;
+}
+.card-btn{
+    background-color:#fff;
+    width:150px;
+    height:40px;
+    position:inline-block;
+    text-decoration: none;
+    color:rgb(104, 9, 88);
+    line-height:40px;
+    border-radius: 20px;
+    font-weight:bold;
+    padding:10px;
+}
+.card-btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+.product-title{
+    color:rgb(104, 9, 88);
+}
+#footer{
+    background-image: linear-gradient(#d0a8e7,rgb(104, 9, 88));
+    color:#fff;
+    padding:50px;
+    padding-bottom: 5px;
+}
+.map{
+    text-align: center;
+}
+.footer-bar{
+    border-top:1px solid gray;
+    text-align: center;
+    padding:10px;
+}
+#footer-box{
+    background-image: linear-gradient(#d0a8e7,rgb(104, 9, 88)) !important;
+    color:#fff !important;
+    padding-bottom: 5px !important;
+    
+}
+.footer-text{
+    text-align: center !important;
+    
+}
